@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>	
+	<head>
+		<title>image test</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<script>
+			function change1()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://www.xtrafondos.com/en/descargar.php?id=7362&resolucion=5120x2880" width="700">'
+			}
+			
+			function change2()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://wallpaperaccess.com/full/216250.jpg" width="700">';
+			}
+
+			function change3()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://wallpaperaccess.com/full/790319.png" width="700">';
+			}
+
+
+			function change4()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://wallpapercave.com/wp/GLUviaz.jpg" width="700">';
+			}
+		</script>
+		<style>
+		.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+		</style>
+	</head>
+	<body background="https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80" align="center" width="800">
+
+		<a onclick="change1()"><button  class="registerbtn">Batman</button></a>&nbsp;&nbsp;&nbsp;
+		<a onclick="change2()"><button  class="registerbtn">Hitman</button></a>&nbsp;&nbsp;&nbsp;
+    	<a onclick="change3()"><button  class="registerbtn">Daredevil</button></a>&nbsp;&nbsp;&nbsp;
+		<a onclick="change4()"><button  class="registerbtn">Superman</button></a>&nbsp;&nbsp;&nbsp;
+		<div id="changing_image"></div>
+	</body>
+</html>
